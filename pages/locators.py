@@ -15,14 +15,14 @@ class LoginPageLocators():
     REGISTRATION_BUTTON = (By.CSS_SELECTOR, "#register_form .btn-primary")
 
 class ProductPageLocators():
-	ADD_TO_BASKET = (By.CSS_SELECTOR, ".btn-add-to-basket")
-	MESSAGE_ABOUT_ADD_TO_BASKET_PRODUCT = (By.CSS_SELECTOR, "#messages>div:nth-child(1)")
-	MESSAGE_ABOUT_PRICE_ADDED_PRODUCT = (By.CSS_SELECTOR, ".alert-info")
-	NAME_PRODUCT_IN_BASKET = (By.CSS_SELECTOR, "#messages>div:nth-child(1)>div>strong")
-	PRICE_PRODUCT_IN_BASKET = (By.CSS_SELECTOR, ".alert-info>.alertinner>p:nth-Child(1)>strong")
-	NAME_PRODUCT = (By.CSS_SELECTOR, ".product_main>h1")
-	PRICE_PRODUCT = (By.CSS_SELECTOR, ".product_main>.price_color")
-	SUCCESS_MESSAGE = (By.CSS_SELECTOR, "#messages div.alertinner")
+    ADD_TO_BASKET = (By.CSS_SELECTOR, ".btn-add-to-basket")
+    MESSAGE_ABOUT_ADD_TO_BASKET_PRODUCT = (By.CSS_SELECTOR, "#messages>div:nth-child(1)")
+    MESSAGE_ABOUT_PRICE_ADDED_PRODUCT = (By.CSS_SELECTOR, ".alert-info")
+    NAME_PRODUCT_IN_BASKET = (By.CSS_SELECTOR, "#messages>div:nth-child(1)>div>strong")
+    PRICE_PRODUCT_IN_BASKET = (By.CSS_SELECTOR, ".alert-info>.alertinner>p:nth-Child(1)>strong")
+    NAME_PRODUCT = (By.CSS_SELECTOR, ".product_main>h1")
+    PRICE_PRODUCT = (By.CSS_SELECTOR, ".product_main>.price_color")
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, "#messages div.alertinner")
 
 class BasketPageLocators():
     PRODUCTS_IN_BASKET = (By.CSS_SELECTOR, ".basket-items")
